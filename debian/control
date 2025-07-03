@@ -1,0 +1,12 @@
+Source: ros-jazzy-moveit-task-constructor-msgs
+Section: misc
+Priority: optional
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-moveit-msgs, ros-jazzy-rosidl-default-generators, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-moveit-task-constructor-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-moveit-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Description: Messages for MoveIt Task Pipeline
