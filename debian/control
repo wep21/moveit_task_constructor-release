@@ -1,0 +1,12 @@
+Source: ros-jazzy-moveit-task-constructor-core
+Section: misc
+Priority: optional
+Maintainer: Michael Goerner <me@v4hn.de>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-gmock <!nocheck>, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-pytest <!nocheck>, ros-jazzy-ament-cmake-python, ros-jazzy-geometry-msgs, ros-jazzy-launch-testing-ament-cmake <!nocheck>, ros-jazzy-moveit-configs-utils <!nocheck>, ros-jazzy-moveit-core, ros-jazzy-moveit-planners <!nocheck>, ros-jazzy-moveit-resources-fanuc-moveit-config <!nocheck>, ros-jazzy-moveit-ros-planning, ros-jazzy-moveit-ros-planning-interface, ros-jazzy-moveit-task-constructor-msgs, ros-jazzy-py-binding-tools, ros-jazzy-rclcpp, ros-jazzy-rviz-marker-tools, ros-jazzy-tf2-eigen, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Homepage: https://github.com/moveit/moveit_task_constructor
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-moveit-task-constructor-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfmt-dev, ros-jazzy-geometry-msgs, ros-jazzy-moveit-core, ros-jazzy-moveit-ros-planning, ros-jazzy-moveit-ros-planning-interface, ros-jazzy-moveit-task-constructor-msgs, ros-jazzy-py-binding-tools, ros-jazzy-rclcpp, ros-jazzy-rviz-marker-tools, ros-jazzy-tf2-eigen, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Description: MoveIt Task Pipeline
