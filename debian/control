@@ -1,0 +1,12 @@
+Source: ros-jazzy-moveit-task-constructor-demo
+Section: misc
+Priority: optional
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-generate-parameter-library, ros-jazzy-moveit-core, ros-jazzy-moveit-ros-planning-interface, ros-jazzy-moveit-task-constructor-core, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-moveit-task-constructor-demo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-generate-parameter-library, ros-jazzy-moveit-configs-utils, ros-jazzy-moveit-core, ros-jazzy-moveit-resources-panda-moveit-config, ros-jazzy-moveit-ros-planning-interface, ros-jazzy-moveit-task-constructor-capabilities, ros-jazzy-moveit-task-constructor-core, ros-jazzy-py-binding-tools, ros-jazzy-ros-workspace
+Description: demo tasks illustrating various capabilities of MTC.
