@@ -1,0 +1,12 @@
+Source: ros-jazzy-rviz-marker-tools
+Section: misc
+Priority: optional
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, liburdfdom-headers-dev, ros-jazzy-ament-cmake, ros-jazzy-eigen3-cmake-module, ros-jazzy-geometry-msgs, ros-jazzy-moveit-common, ros-jazzy-rclcpp, ros-jazzy-std-msgs, ros-jazzy-tf2-eigen, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rviz-marker-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-jazzy-eigen3-cmake-module, ros-jazzy-geometry-msgs, ros-jazzy-moveit-common, ros-jazzy-rclcpp, ros-jazzy-std-msgs, ros-jazzy-tf2-eigen, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Description: Tools for marker creation / handling
